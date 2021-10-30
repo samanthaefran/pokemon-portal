@@ -1,3 +1,27 @@
-body {
-    background-color: aquamarine;
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(42, 117, 187);
+    min-height: 100vh;
+    font-family:sans-serif;
+    color: #ffcb05;
+}
+
+h1{
+font-size: 75px;
+margin-inline: 300px;
+font-family: 'Pokemon Solid', sans-serif;
+}
+
+form {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+main {
+    display: flex; 
+    justify-content:space-around;
+    align-items: center;
 }
