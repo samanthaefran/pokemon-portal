@@ -62,12 +62,12 @@ function render() {
         <img src='${pictureOf}' alt='${pokemonData.name}'/> 
     </section>
     <section id='pokemon-info'>
-        <h3>name<h3>
-        <ul id='name'>${pokemonData.name}</ul>
-        <h3>moves<h3>
-        <ul id='moves'>${topMoves}</ul>
-        <h3>abilities<h3>
-        <ul id='ability'>${topAb}</ul>
+        <h3>POKEMON NAME<h3>
+        <li id='name'>${pokemonData.name}</li>
+        <h3>MOVES<h3>
+        <li id='moves'>${topMoves}</li>
+        <h3>ABILITIES<h3>
+        <li id='ability'>${topAb}</li>
     </section>
     `)
 
