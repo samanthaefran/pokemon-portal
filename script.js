@@ -38,7 +38,7 @@ function handleSubmit(evt) {
             pokemonMoves = data.moves;
             renderedMoves = pokemonMoves.map(move =>  move.move.name);
             topMoves = renderedMoves.slice(0,4);
-            pokemonAb = data.abilities;
+           pokemonAb = data.abilities;
             renderedAb = pokemonAb.map(ability => ability.ability.name);
             topAb = renderedAb.slice(0,4);
             render();
