@@ -19,27 +19,28 @@ nav{
     justify-content: space-evenly;
     align-items: center;
     font-family: 'Pokemon Solid', sans-serif;
-    font-size: 28px;
+    text-shadow: 1px 1px 2px #c7a008;
+    font-size: 40px;
   }
 
-#pokemon-info{
-    margin-top: 60px;
-    padding: 100px;
-    margin-left: 300px;
-    justify-content: center;
-    align-content:center;
-    flex-wrap: wrap;
-    flex-direction: column;
-    
+  main {
+      margin-top: 100px;
+      display: flex;
+      justify-content: space-around;
+      flex-direction: row;
+      align-items: center;
+      font-size: medium;
 }
 
-#pokemon-image{
-    margin-top:60px;
-    padding: 100px;
-    margin-left: 300px;
-    justify-content: center;
-    align-items: center;
+#pokemon-image {
+    padding: 10px;
+    border: solid;
+    border-color: #c7a008;
 }
+
+
+
+
 
 
 
