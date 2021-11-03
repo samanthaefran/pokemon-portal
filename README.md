@@ -1,5 +1,7 @@
 # POKÉMON PORTAL 
 
+A web app to allow a user to enter in a pokemon of their choice and get to see information about it
+
 ## TECHNOLOGY USED
 
 - HTML 
